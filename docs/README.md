@@ -1,4 +1,4 @@
-# ChatGPT_Wiki
+# ChatGPT-Wiki
 
 各种项目的中文版Wiki
 
