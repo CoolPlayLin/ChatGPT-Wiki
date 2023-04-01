@@ -6,27 +6,27 @@ Main.py
 
 <a id="EdgeGPT.append_identifier"></a>
 
-#### append\_identifier
+#### 追加标识符
 
 ```python
 def append_identifier(msg: dict) -> str
 ```
 
-Appends special character to end of message to identify end of message
+将特殊字符附加到消息末尾以标识消息结尾
 
 <a id="EdgeGPT.ChatHubRequest"></a>
 
-## ChatHubRequest Objects
+## ChatHubRequest 对象
 
 ```python
 class ChatHubRequest()
 ```
 
-Request object for ChatHub
+ChatHub 的请求对象
 
 <a id="EdgeGPT.ChatHubRequest.update"></a>
 
-#### update
+#### 更新
 
 ```python
 def update(prompt: str,
@@ -34,31 +34,31 @@ def update(prompt: str,
            options: list | None = None) -> None
 ```
 
-Updates request object
+更新请求对象
 
 <a id="EdgeGPT.Conversation"></a>
 
-## Conversation Objects
+## Conversation 对象
 
 ```python
 class Conversation()
 ```
 
-Conversation API
+Conversation 的 API
 
 <a id="EdgeGPT.ChatHub"></a>
 
-## ChatHub Objects
+## ChatHub 对象
 
 ```python
 class ChatHub()
 ```
 
-Chat API
+Chat 的 API
 
 <a id="EdgeGPT.ChatHub.ask_stream"></a>
 
-#### ask\_stream
+#### 流式询问
 
 ```python
 async def ask_stream(
@@ -67,42 +67,42 @@ async def ask_stream(
 ) -> Generator[str, None, None]
 ```
 
-Ask a question to the bot
+问 bot 问题
 
 <a id="EdgeGPT.ChatHub.close"></a>
 
-#### close
+#### 关闭
 
 ```python
 async def close()
 ```
 
-Close the connection
+关闭连接
 
 <a id="EdgeGPT.Chatbot"></a>
 
-## Chatbot Objects
+## Chatbot 对象
 
 ```python
 class Chatbot()
 ```
 
-Combines everything to make it seamless
+结合一切，使其无缝衔接
 
 <a id="EdgeGPT.Chatbot.ask"></a>
 
-#### ask
+#### 询问
 
 ```python
 async def ask(prompt: str,
               conversation_style: CONVERSATION_STYLE_TYPE = None) -> dict
 ```
 
-Ask a question to the bot
+问 bot 问题
 
 <a id="EdgeGPT.Chatbot.ask_stream"></a>
 
-#### ask\_stream
+#### 流式询问
 
 ```python
 async def ask_stream(
@@ -111,46 +111,46 @@ async def ask_stream(
 ) -> Generator[str, None, None]
 ```
 
-Ask a question to the bot
+问 bot 问题
 
 <a id="EdgeGPT.Chatbot.close"></a>
 
-#### close
+#### 关闭
 
 ```python
 async def close()
 ```
 
-Close the connection
+关闭连接
 
 <a id="EdgeGPT.Chatbot.reset"></a>
 
-#### reset
+#### 重置
 
 ```python
 async def reset()
 ```
 
-Reset the conversation
+重置 conversation
 
 <a id="EdgeGPT.get_input_async"></a>
 
-#### get\_input\_async
+#### 异步获取输入
 
 ```python
 async def get_input_async(session: PromptSession = None,
                           completer: WordCompleter = None) -> str
 ```
 
-Multiline input function.
+多行输入功能
 
 <a id="EdgeGPT.main"></a>
 
-#### main
+#### 主函数
 
 ```python
 async def main()
 ```
 
-Main function
+主要的函数
 

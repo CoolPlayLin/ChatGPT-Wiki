@@ -4,4 +4,5 @@
 
 ## 目录
 
-- [ChatGPT](./ChatGPT/README.md)
+- [ChatGPT](./ChatGPT/)
+- [EdgeGPT](./EdgeGPT/)
