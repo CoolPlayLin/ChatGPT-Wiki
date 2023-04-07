@@ -32,7 +32,7 @@ jobs:
         run: yarn docs:build
 
       - name: Make CNAME file
-        run: yarn docs:build:cname
+        run: yarn docs:cname
 
       - name: Deploy to GitHub Pages
         if: success()
