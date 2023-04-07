@@ -3,7 +3,7 @@ name: Page on Push
 on:
   push:
     branches:
-      - main
+      - master
 
 
 permissions: write-all
